@@ -1,0 +1,390 @@
+@extends('frontend.header')
+
+@section('style')
+<style>
+</style>
+@endsection
+@section('content')
+<div class="page-content bg-white">
+    <!-- Banner  -->
+    <div class="dlab-bnr-inr style-1 overlay-black-middle" style="background-image: url(public/frontend/images/banner/bnp.png);">
+        <div class="container">
+            <div class="dlab-bnr-inr-entry">
+                <h1 class="text-white">เกี่ยวกับ</h1>
+                <div class="dlab-separator"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <section class="content-inner-2 overflow-hidden">
+        <div class="container">
+            <div class="row about-bx1">
+                <div class="col-lg-5">
+                    <div class="dlab-media">
+                        <img src="{{ asset('public/frontend/images/about/23070895c7d757aa3e616b4be6edb9ab.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 align-self-center">
+                    <div class="section-head">
+                        <h6 class="text-primary sub-title" style="font-size: 18px; font-family: Montserrat!important; letter-spacing: 5.4px; font-weight: 700;">
+                            ABOUT</h6>
+                        <h2 class="title" style="font-size: 48px; font-weight: 600;">ตลาดเด่นห้า</h2>
+                    </div>
+                    <p style="color: #212621; font-size: 18px; font-weight: 400;">
+                    ตลาดเด่นห้า  มีของให้เลือกซื้อมากมาย ของกินเพียบ อาหาร เครื่องดื่ม ขนมและเบเกอรี่ และที่จะพลาดไม่ได้ คืออาหารพื้นบ้านของภาคเหนือ นี่ก็เป็นสถานที่ชิลติดอันดับของระแวกนี้เลย </p>
+                    <p style="color: #212621; font-size: 18px; font-weight: 400;">
+                    เปิดทุกวัน  05:00 -20:00 น.</p>
+                    <div class="swiper-container about-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="icon-bx-wraper style-1 hover-overlay-effect">
+                                    <div class="icon-md m-b40">
+                                        <img src="{{ asset('public/frontend/images/imaimmarket/cutlery.png') }}" alt="" width="47" height="42">
+                                        <img class="img-top" src="{{ asset('public/frontend/images/imaimmarket/cutlery (1).png') }}" alt="" width="47" height="42">
+                                    </div>
+                                    <div class="icon-content">
+                                        <h4 class="title"><a href="services.html" class="text-effect-1" data-splitting>อาหาร</a></h4>
+                                        <p>อาหารหลากหลายมีทั้งอาหาร ปิ้งย่าง 
+                                                รวมไปถึงที่พลาดไม่ได้เลย 
+                                                มีอาหารท้องถิ่นให้ได้ลิ้มลอง 
+                                                รับรองว่าอร่อยจนหยุดกินไม่ได้...</p>
+                                    </div>
+                                    <div class="effect bg-dangerdanha"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-bx-wraper style-1 hover-overlay-effect">
+                                    <div class="icon-md m-b40">
+                                    <img src="{{ asset('public/frontend/images/imaimmarket/bakery (1).png') }}"
+                                                alt="" width="47" height="42">
+                                                <img class="img-top"
+                                                src="{{ asset('public/frontend/images/imaimmarket/bakery (2).png') }}"
+                                                alt="" width="47" height="42">
+                                    </div>
+                                    <div class="icon-content">
+                                        <h4 class="title"><a href="services.html" class="text-effect-1" data-splitting>ขนมและเบเกอรี่</a></h4>
+                                        <p>รวมขนม ไม่ว่าจะเป็นขนมไทย 
+                                                เบเกอรี่ โรตี รวมถึงขนมอีกมากมาย
+                                                รสชาติ หอม หวาน มัน อร่อย อยู่ที่นี่</p>
+                                    </div>
+                                    <div class="effect bg-warningdanha"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-bx-wraper style-1 hover-overlay-effect">
+                                    <div class="icon-md m-b40">
+                                        <img src="{{ asset('public/frontend/images/imaimmarket/pud 1.png') }}" alt="" width="47" height="42">
+                                        <img class="img-top" src="{{ asset('public/frontend/images/imaimmarket/pud 2.png') }}" alt="" width="47" height="42">
+                                    </div>
+                                    <div class="icon-content">
+                                        <h4 class="title"><a href="services.html" class="text-effect-1" data-splitting>เสื้อผ้าให้เลือกซื้อ</a></h4>
+                                        <p style="margin-bottom: 28px">
+                                            เสื้อผ้าแฟชั่นให้เลือกสรรค์ 
+                                            ท้าลมหนาวที่กำลังจะมาถึง 
+                                            สำหรับร้านเสื้อผ้าหรือสินค้าแฟชั่น
+                                        </p>
+
+                                    </div>
+                                    <div class="effect bg-dangerdanha"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-inner-2">
+        <div class="container">
+            <div class="row features-box">
+                <div class="col-lg-7 align-self-center m-b30">
+                    <div class="content-box">
+                        <div class="section-head mb-0">
+                            <h2 class="title">ตลาดนัดหลัง big c เชียงใหม่</h2>
+                        </div>
+                        <p class="m-b40">ตลาดนัดหลัง big c เชียงใหม่ ตั้งอยู่ที่ เลขที่ 94 หมู่ 4 อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50000 อยู่ติดกับ Big c 
+                            เชียงใหม่ ร้านค้าเยอะโดยเฉพาะร้านอาหาร มีทั้งอาหารคาว อาหารหวาน ผักผลไม้ อาหารจานด่วน 
+                            อาหารทานเล่น อาหารปิ้งย่าง รวมถึงอาหารประจำภาคที่ต้องลองชิม ราคาไม่แพง พ่อค้าแม่ค้าเป็นกันเอง 
+                            รับรองว่า อิ่มท้อง และ อร่อยแน่นอน</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 m-b30 m-sm-b0">
+                    <div class="swiper-container single-image-swiper swiper-btn-lr sticky-top m-b30">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="dlab-thum-bx">
+                                    <img src="{{ asset('public/frontend/images/about/Rectangle 111.png') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dlab-thum-bx">
+                                    <img src="{{ asset('public/frontend/images/about/Rectangle 111.png') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dlab-thum-bx">
+                                    <img src="{{ asset('public/frontend/images/about/Rectangle 111.png') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dlab-thum-bx">
+                                    <img src="{{ asset('public/frontend/images/about/Rectangle 111.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-prev swiper-button-prev2"><i class="las la-arrow-left"></i></div>
+                        <div class="btn-next swiper-button-next2"><i class="las la-arrow-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- อิ่มเอม มาร์เก็ต -->
+    <section class="content-inner-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 m-b40">
+                    <div class="section-head" style="display: -webkit-box;">
+                        <div class="icon-full" style="margin-right:60px;">
+                            <svg width="64" height="70" viewBox="0 0 64 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 28.4375C24 26.0217 22.2087 24.0625 20 24.0625H18C13.5813 24.0625 10 27.9795 10 32.8125V39.375C10 44.208 13.5813 48.125 18 48.125H20C22.2087 48.125 24 46.1658 24 43.75V28.4375ZM46 48.125C50.4188 48.125 54 44.208 54 39.375V32.8125C54 27.9795 50.4188 24.0625 46 24.0625H44C41.7912 24.0625 40 26.0217 40 28.4375V43.75C40 46.1658 41.7912 48.125 44 48.125H46ZM32 0C14.1475 0 0.5725 16.2463 0 35V37.1875C0 38.3961 0.895 39.375 2 39.375H4C5.105 39.375 6 38.3961 6 37.1875V35C6 19.3197 17.6637 6.5625 32 6.5625C46.3363 6.5625 58 19.3197 58 35H57.985C57.995 35.3322 58 57.657 58 57.657C58 60.8494 55.6338 63.4375 52.715 63.4375H40C40 59.8131 37.3138 56.875 34 56.875H30C26.6863 56.875 24 59.8131 24 63.4375C24 67.0619 26.6863 70 30 70H52.715C58.9475 70 64 64.4738 64 57.657V35C63.4275 16.2463 49.8525 0 32 0Z" fill="white" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="title" style="margin-bottom:20px;">ตลาดนัดหลัง big c เชียงใหม่</h2>
+                            <p class="m-b50">ช่องทางการติดต่อสื่อสาร ตลาดนัดหลัง big c เชียงใหม่</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 96.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">777 ถ. มิตรภาพ ต.ปากเพียว อ.เมืองสระบุรี จ.สระบุรี 18000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 98.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">080-583-8888</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 100.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">imaimmarket@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 108.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">ตลาดอิ่มเอม สระบุรี</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 102.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">imaimmarket</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 104.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">imaimmarket</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-b20">
+                    <div class="icon-bx-wraper style-2">
+                        <div class="icon-bx-sm radius">
+                            <span class="icon-cell">
+                                <img src="{{ asset('public/frontend/images/about/Rectangle 106.png') }}" alt="" width="22" height="22" style="height:auto !important;">
+                            </span>
+                        </div>
+                        <div class="icon-content">
+                            <p style="color:#212621 !important;">imaimmarket</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-inner-2">
+        <div class="container">
+            <div class="section-head text-center head-style-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                <h2 class="title">ภาพลักษณ์ของตลาด</h2>
+                <div class="dlab-separator-outer">
+                    <div class="dlab-separator bg-primary"></div>
+                </div>
+                <p>ตลาดนัดหลัง big c เชียงใหม่ ให้ความสำคัญการดูแลและบำรุงรักษาให้คงมาตรฐานความสะอาด ปลอดภัยอยู่เสมอ</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 86.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 89.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 93.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 88.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 90.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 87.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 91.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 92.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle 94.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-inner-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-head row">
+                        <div class="col-sm-8">
+                            <h3 class="title m-b20">รางวัลและมาตรฐานที่ได้รับ</h3>
+                            <p>อิ่มเอม มาร์เก็ต ให้ความสำคัญกับมาตรฐานเพื่อดำเนินกิจการอย่างสะอาดและปลอดภัย</p>
+                        </div>
+                        <div class="col-sm-4 text-sm-end">
+                            <div class="portfolio-pagination d-inline-block">
+                                <div class="btn-prev swiper-button-prev3"><i class="las la-arrow-left"></i></div>
+                                <div class="btn-next swiper-button-next3"><i class="las la-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show active" id="upcoming">
+                        <div class="swiper-container city-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="icon-bx-wraper style-1 box-sm text-center shadow-none border hover-overlay-effect m-b30">
+                                        <div class="icon-md m-b20">
+                                            <img src="{{ asset('public/frontend/images/Rectangle 87.png') }}" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <span>มาตรฐาน</span>
+                                            <h6 class="title m-t10 m-b0"><a href="used-car-search-result.html" class="text-effect-1" data-splitting>ISO 9001:2015</a></h6>
+                                        </div>
+                                        <div class="effect bg-primary"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="icon-bx-wraper style-1 box-sm text-center shadow-none border hover-overlay-effect m-b30">
+                                        <div class="icon-md m-b20">
+                                            <img src="{{ asset('public/frontend/images/Rectangle 89.png') }}" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <span>มาตรฐาน GMP</span>
+                                            <!-- <h6 class="title m-t10 m-b0"><a href="used-car-search-result.html" class="text-effect-1" data-splitting>ISO 9001:2015</a></h6> -->
+                                        </div>
+                                        <div class="effect bg-primary"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="icon-bx-wraper style-1 box-sm text-center shadow-none border hover-overlay-effect m-b30">
+                                        <div class="icon-md m-b20">
+                                            <img src="{{ asset('public/frontend/images/Rectangle 91.png') }}" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <span>มาตรฐาน</span>
+                                            <h6 class="title m-t10 m-b0"><a href="used-car-search-result.html" class="text-effect-1" data-splitting>ISO 14001:2015</a></h6>
+                                        </div>
+                                        <div class="effect bg-primary"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="icon-bx-wraper style-1 box-sm text-center shadow-none border hover-overlay-effect m-b30">
+                                        <div class="icon-md m-b20">
+                                            <img src="{{ asset('public/frontend/images/Rectangle 93.png') }}" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <span>มาตรฐาน</span>
+                                            <h6 class="title m-t10 m-b0"><a href="used-car-search-result.html" class="text-effect-1" data-splitting>HACCP</a></h6>
+                                        </div>
+                                        <div class="effect bg-primary"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="icon-bx-wraper style-1 box-sm text-center shadow-none border hover-overlay-effect m-b30">
+                                        <div class="icon-md m-b20">
+                                            <img src="{{ asset('public/frontend/images/Rectangle 95.png') }}" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <span>มาตรฐาน Fair Trade</span>
+                                            <h6 class="title m-t10 m-b0"><a href="used-car-search-result.html" class="text-effect-1" data-splitting>(การค้าที่ยุติธรรม)</a></h6>
+                                        </div>
+                                        <div class="effect bg-primary"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@endsection
+
+@section('script')
+@endsection
