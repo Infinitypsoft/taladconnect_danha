@@ -25,7 +25,7 @@
                                     data-param7="" data-param8="" data-param9="" data-param10=""
                                     data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{ asset('public/frontend/images/banner/a527b2bbe6413db3f5b52057fa1320a2.png') }}"
+                                    <img src="{{ asset('public/frontend/images/banner/bbh.png') }}"
                                         alt="" data-bgposition="center center" data-bgfit="cover"
                                         data-bgparallax="3" class="rev-slidebg" data-no-retina>
 
@@ -92,7 +92,7 @@
                                     data-param7="" data-param8="" data-param9="" data-param10=""
                                     data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{ asset('public/frontend/images/banner/a527b2bbe6413db3f5b52057fa1320a2.png') }}"
+                                    <img src="{{ asset('public/frontend/images/banner/bbh.png') }}"
                                         alt="" data-bgposition="center center" data-bgfit="cover"
                                         data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg"
                                         data-no-retina>

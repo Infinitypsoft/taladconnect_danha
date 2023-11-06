@@ -4,14 +4,14 @@
 <style>
     .badge.badge-success {
         border-radius: 10px;
-        border: 1px solid #F00;
-        background: #F00;
+        border: 1px solid #91794B;
+        background: #91794B;
     }
 
     .badge.badge-warning {
         border-radius: 10px;
-        border: 1px solid #C2CF27;
-        background: #C2CF27;
+        border: 1px solid #525252;
+        background: #525252;
     }
 </style>
 @endsection

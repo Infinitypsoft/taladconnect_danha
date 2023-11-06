@@ -16,10 +16,10 @@
 } */
 :root{
 	--primary: #91794B;
-	--secondary: #FF9446;
+	--secondary: #525252;
 	--primary-hover: #91794B;
 	--primary-dark: #91794B;
-	--rgba-primary-1: rgba(26, 150, 212,0.1);
+	--rgba-primary-1: rgba(145, 121, 75, 0.10);
 	--rgba-primary-2: rgba(26, 150, 212,0.2);
 	--rgba-primary-3: rgba(26, 150, 212,0.3);
 	--rgba-primary-4: rgba(26, 150, 212,0.4);

@@ -192,7 +192,7 @@
                     <div class="row align-items-center fb-inner spno">
                         <div class="col-12 text-center">
                             <span class="copyright-text">Copyright © 2021 <a href="https://dexignlab.com/"
-                                    class="text-primary" target="_blank">Flea Market Big C Extra</a> All rights
+                                    class="text-primary" target="_blank">Denha Chaingrai Market</a> All rights
                                 reserved.</span>
                         </div>
                     </div>

@@ -103,12 +103,12 @@
                 <div class="col-lg-7 align-self-center m-b30">
                     <div class="content-box">
                         <div class="section-head mb-0">
-                            <h2 class="title">ตลาดนัดหลัง big c เชียงใหม่</h2>
+                            <h2 class="title">ประวัติตลาดเด่นห้า</h2>
                         </div>
-                        <p class="m-b40">ตลาดนัดหลัง big c เชียงใหม่ ตั้งอยู่ที่ เลขที่ 94 หมู่ 4 อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50000 อยู่ติดกับ Big c 
-                            เชียงใหม่ ร้านค้าเยอะโดยเฉพาะร้านอาหาร มีทั้งอาหารคาว อาหารหวาน ผักผลไม้ อาหารจานด่วน 
-                            อาหารทานเล่น อาหารปิ้งย่าง รวมถึงอาหารประจำภาคที่ต้องลองชิม ราคาไม่แพง พ่อค้าแม่ค้าเป็นกันเอง 
-                            รับรองว่า อิ่มท้อง และ อร่อยแน่นอน</p>
+                        <p class="m-b40">ตลาดสดเด่นห้า หรือที่เรียกกัน “กาดเด่นห้า” เนื่องจากตลาดตั้งอยู่ในบริเวณศูนย์กลางของหมู่บ้านเด่นห้า ต.รอบเวียง อ.เมือง จ.เชียงราย
+                             ซึ่งก่อตั้งมามากกว่า 20 ปี มีพ่อค้าแม่ค้าในพื้นที่เจ้าประจำที่นำสินค้ามาขาย เช่น ผักสด ผลไม้สด หมูสด 
+                             ไก่สด ผักและผลไม้พื้นเมืองตามฤดูกาล อาหารทะเล ข้าวสาร อาหารพร้อมทาน อาหารพื้นเมือง ขนมไทย 
+                             เบเกอรี่ ดอกไม้สด เสื้อผ้าพื้นเมือง เนื่องจากเป็นตลาดท้องถิ่นสินค้าจะอยู่ในราคาย่อมเยาว์ เปิดให้บริการทุกวัน ในช่วงเช้า</p>
                     </div>
                 </div>
                 <div class="col-lg-5 m-b30 m-sm-b0">
@@ -154,8 +154,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h2 class="title" style="margin-bottom:20px;">ตลาดนัดหลัง big c เชียงใหม่</h2>
-                            <p class="m-b50">ช่องทางการติดต่อสื่อสาร ตลาดนัดหลัง big c เชียงใหม่</p>
+                            <h2 class="title" style="margin-bottom:20px;">ตลาดเด่นห้า Market</h2>
+                            <p class="m-b50">ช่องทางการติดต่อสื่อสาร ตลาดเด่นห้า</p>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">777 ถ. มิตรภาพ ต.ปากเพียว อ.เมืองสระบุรี จ.สระบุรี 18000</p>
+                            <p style="color:#212621 !important;">372/1 หมู่ 16 ถนน หน้าค่าย ต.รอบเวียง อ.เมือง จ.เชียงราย 57000</p>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">080-583-8888</p>
+                            <p style="color:#212621 !important;">057-712-381</p>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">imaimmarket@gmail.com</p>
+                            <p style="color:#212621 !important;">-</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">ตลาดอิ่มเอม สระบุรี</p>
+                            <p style="color:#212621 !important;">ตลาดสดเด่นห้า เชียงราย</p>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">imaimmarket</p>
+                            <p style="color:#212621 !important;">-</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">imaimmarket</p>
+                            <p style="color:#212621 !important;">-</p>
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
                             </span>
                         </div>
                         <div class="icon-content">
-                            <p style="color:#212621 !important;">imaimmarket</p>
+                            <p style="color:#212621 !important;">-</p>
                         </div>
                     </div>
                 </div>
@@ -256,41 +256,41 @@
                 <div class="dlab-separator-outer">
                     <div class="dlab-separator bg-primary"></div>
                 </div>
-                <p>ตลาดนัดหลัง big c เชียงใหม่ ให้ความสำคัญการดูแลและบำรุงรักษาให้คงมาตรฐานความสะอาด ปลอดภัยอยู่เสมอ</p>
+                <p>ตลาดเด่นห้า Market ให้ความสำคัญการดูแลและบำรุงรักษาให้คงมาตรฐานความสะอาด ปลอดภัยอยู่เสมอ</p>
             </div>
 
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 86.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-86.png') }}" alt="">
                     </div>
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 89.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-89.png') }}" alt="">
                     </div>
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 93.png') }}" alt="">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
-                    <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 88.png') }}" alt="">
-                    </div>
-                    <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 90.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-93.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 87.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-88.png') }}" alt="">
                     </div>
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 91.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-90.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-1 m-0">
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-87.png') }}" alt="">
                     </div>
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 92.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-91.png') }}" alt="">
                     </div>
                     <div class="pb-2 text-center">
-                        <img src="{{ asset('public/frontend/images/about/Rectangle 94.png') }}" alt="">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-92.png') }}" alt="">
+                    </div>
+                    <div class="pb-2 text-center">
+                        <img src="{{ asset('public/frontend/images/about/Rectangle-94.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -303,7 +303,7 @@
                     <div class="section-head row">
                         <div class="col-sm-8">
                             <h3 class="title m-b20">รางวัลและมาตรฐานที่ได้รับ</h3>
-                            <p>อิ่มเอม มาร์เก็ต ให้ความสำคัญกับมาตรฐานเพื่อดำเนินกิจการอย่างสะอาดและปลอดภัย</p>
+                            <p>ตลาดเด่นห้า Market ให้ความสำคัญกับมาตรฐานเพื่อดำเนินกิจการอย่างสะอาดและปลอดภัย</p>
                         </div>
                         <div class="col-sm-4 text-sm-end">
                             <div class="portfolio-pagination d-inline-block">

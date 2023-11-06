@@ -36,9 +36,11 @@
         <section class="content-inner-2">
             <div class="container-fluid">
                 <div class="section-head space-lg text-center">
-                    <h2 class="title">ข่าวสารกิจกรรมใหม่</h2>
+                    <h2 class="title">ข่าวสารและกิจกรรมใหม่</h2>
                     <p>
-                        รวม "ข่าวสารและกิจกรรม" ดีๆ จากตลาดนัดหลัง big c เชียงใหม คุณจะไม่พลาดทุกความเคลื่อนไหว อัพเดทข่าวสาร และกิจกรรมดีๆ ตอบรับทุกไลฟ์สไตล์ของคุณได้ที่นี่
+                    รวม "ข่าวสารและกิจกรรม" ดีๆ ตลาดเด่นห้า
+                    <br>
+                    คุณจะไม่พลาดทุกความเคลื่อนไหว อัพเดทข่าวสาร และกิจกรรมดีๆ ตอบรับทุกไลฟ์สไตล์ของคุณได้ที่นี่
                     </p>
                 </div>
                 <div class="swiper-container deal-swiper swiper-dots-1">
@@ -284,7 +286,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="media-box">
-                            <img src="{{ asset('public/frontend/images/banner/a527b2bbe6413db3f5b52057fa1320a2.png') }}"
+                            <img src="{{ asset('public/frontend/images/banner/4b.png') }}"
                                 class="main-img" alt="">
                             <img src="{{ asset('public/frontend/images/pattern/pattern7.png') }}" class="pt-img move-1"
                                 alt="">

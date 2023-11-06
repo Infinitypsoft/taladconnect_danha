@@ -106,7 +106,7 @@
     <div class="page-content bg-white">
         <!-- Banner  -->
         <div class="dlab-bnr-inr dlab-bnr-inr-lg style-1 overlay-black-middle"
-            style="background-image: url({{ asset('public/frontend/images/banner/a527b2bbe6413db3f5b52057fa1320a2.png') }});">
+            style="background-image: url({{ asset('public/frontend/images/banner/bb.png') }});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white">ร้านค้า</h1>
@@ -155,98 +155,6 @@
             </div>
         </div>
 
-
-        <section class="content-inner mt-5">
-            <div class="container">
-                <div class="section-head space-lg text-center">
-                    <h2 class="title m-b20">อิ่มเอม มาร์เก็ต</h2>
-                    <p>แปลนตลาดและขนาดผังค้าของอิ่มเอม มาร์เก็ต</p>
-                </div>
-                <div class="dlab-tabs  product-description">
-                    <ul class="nav nav-tabs m-b50">
-                        {{-- <li><a data-bs-toggle="tab" href="#building_a" class="active" style="font-weight: 500;">อาคาร
-                                A</a></li>
-                        <li><a data-bs-toggle="tab" href="#building_b" style="font-weight: 500;">อาคาร B</a></li> --}}
-                        @foreach ($site as $item)
-                            <li><a data-bs-toggle="tab" href="#building_a" class="active" style="font-weight: 500;">{{$item->site_name}}</a></li>
-                        @endforeach
-                    </ul>
-                    <div class="tab-content">
-                        <div id="building_a" class="tab-pane active">
-                            <h6 style="font-size: 22px; font-weight: 600;">ขนาดแผงค้า</h6>
-                            <div class="used-car-features grid2 clearfix m-b50 m-t15" style="gap: 20px">
-                                @foreach ($stall_size as $item)
-                                    <div class="car-features">
-                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <rect x="0.5" y="0.5" width="49" height="49"
-                                                rx="4.5" fill="#C9E7DD" stroke="#C9C9C9" />
-                                            <rect x="10" y="10" width="30" height="30"
-                                                fill="url(#pattern0)" />
-                                            <defs>
-                                                <pattern id="pattern0" patternContentUnits="objectBoundingBox"
-                                                    width="1" height="1">
-                                                    <use xlink:href="#image0_0_1" transform="scale(0.00195312)" />
-                                                </pattern>
-                                                <image id="image0_0_1" width="512" height="512" src="{{ asset('public/'.$item->pic_path) }}">
-                                            </defs>
-                                        </svg>
-
-                                        <h5>{{$item->name}}</h5>
-                                        <span>ขนาด {{$item->size_w}} x {{$item->size_h}} เมตร</span>
-                                    </div>
-                                @endforeach
-
-                            </div>
-
-                            {{-- รูปแบบพื้นที่ใช้เช่าทั้งหมด --}}
-                            <h6 style="font-size: 22px; font-weight: 600;">รูปแบบพื้นที่ใช้เช่าทั้งหมด</h6>
-                            <div class="icon-bx-wraper bx-style-1" style="padding: 34px;">
-                                <div class="used-car-features grid2 clearfix m-b60" data-bs-toggle="modal"
-                                    data-bs-target="#storeModal">
-                                    <?php for ($i=1; $i <= 24; $i++) { ?>
-                                    <div class="car-features2">
-                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
-                                    </div>
-                                    <?php }?>
-                                </div>
-
-                                <div class="used-car-features grid2 clearfix m-b60">
-                                    <?php for ($i=1; $i <= 30; $i++) { ?>
-                                    <div class="car-features4">
-                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
-                                    </div>
-                                    <?php }?>
-                                </div>
-
-                                <div class="used-car-features grid2 clearfix m-b60">
-                                    <?php for ($i=1; $i <= 30; $i++) { ?>
-                                    <div class="car-features5">
-                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
-                                    </div>
-                                    <?php }?>
-                                </div>
-
-                                <div class="used-car-features grid2 clearfix">
-                                    <?php for ($i=1; $i <= 24; $i++) { ?>
-                                    <div class="car-features3">
-                                        <h5 class="m-0">A<?= sprintf('%02d', $i) ?></h5>
-                                    </div>
-                                    <?php }?>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div id="building_b" class="tab-pane">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
         <section class="content-inner">
             <div class="container">
                 <div class="row">
@@ -255,8 +163,8 @@
                             <h2 class="title" style="font-size: 48px;font-weight: 600;">ร้านค้าที่เปิดให้บริการในตลาด
                             </h2>
                             <p style="font-size: 18px; font-weight: 400;" class="mt-4">
-                                รวมรายการร้านค้าที่เปิดให้บริการภายในอิ่มเอม มาร์เก็ต <br>
-                                ทั้งเสื้อผ้าแฟชั่นสำหรับทุกเพศทุกวัย อาหาร เครื่องดื่ม ขนมหวานและอาหารสด
+                            มีสินค้าให้เลือกซื้อหลากหลาย ไม่ว่าจะเป็นผัก ผลไม้ อาหาร ขนม ของฝาก และเสื้อผ้าแฟชั่นตามฤดูกาล ซึ่งการขายสินค้าต่าง ๆ 
+                            ภายในตลาดแห่งนี้มีราคาเริ่มต้นตั้งแต่ 5 บาท ไปจนถึงหลักพันบาท
                             </p>
                         </div>
                     </div>
@@ -511,6 +419,95 @@
             </div>
         </section>
 
+        <section class="content-inner mt-5">
+            <div class="container">
+                <div class="section-head space-lg text-center">
+                    <h2 class="title m-b20">ตลาดเด่นห้า Market</h2>
+                    <p>แปลนตลาดและขนาดผังค้าของตลาดเด่นห้า Market</p>
+                </div>
+                <div class="dlab-tabs  product-description">
+                    <ul class="nav nav-tabs m-b50">
+                        {{-- <li><a data-bs-toggle="tab" href="#building_a" class="active" style="font-weight: 500;">อาคาร
+                                A</a></li>
+                        <li><a data-bs-toggle="tab" href="#building_b" style="font-weight: 500;">อาคาร B</a></li> --}}
+                        @foreach ($site as $item)
+                            <li><a data-bs-toggle="tab" href="#building_a" class="active" style="font-weight: 500;">{{$item->site_name}}</a></li>
+                        @endforeach
+                    </ul>
+                    <div class="tab-content">
+                        <div id="building_a" class="tab-pane active">
+                            <h6 style="font-size: 22px; font-weight: 600;">ขนาดแผงค้า</h6>
+                            <div class="used-car-features grid2 clearfix m-b50 m-t15" style="gap: 20px">
+                                @foreach ($stall_size as $item)
+                                    <div class="car-features">
+                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect x="0.5" y="0.5" width="49" height="49"
+                                                rx="4.5" fill="#C9E7DD" stroke="#C9C9C9" />
+                                            <rect x="10" y="10" width="30" height="30"
+                                                fill="url(#pattern0)" />
+                                            <defs>
+                                                <pattern id="pattern0" patternContentUnits="objectBoundingBox"
+                                                    width="1" height="1">
+                                                    <use xlink:href="#image0_0_1" transform="scale(0.00195312)" />
+                                                </pattern>
+                                                <image id="image0_0_1" width="512" height="512" src="{{ asset('public/'.$item->pic_path) }}">
+                                            </defs>
+                                        </svg>
+
+                                        <h5>{{$item->name}}</h5>
+                                        <span>ขนาด {{$item->size_w}} x {{$item->size_h}} เมตร</span>
+                                    </div>
+                                @endforeach
+
+                            </div>
+
+                            {{-- รูปแบบพื้นที่ใช้เช่าทั้งหมด --}}
+                            <h6 style="font-size: 22px; font-weight: 600;">รูปแบบพื้นที่ใช้เช่าทั้งหมด</h6>
+                            <div class="icon-bx-wraper bx-style-1" style="padding: 34px;">
+                                <div class="used-car-features grid2 clearfix m-b60" data-bs-toggle="modal"
+                                    data-bs-target="#storeModal">
+                                    <?php for ($i=1; $i <= 24; $i++) { ?>
+                                    <div class="car-features2">
+                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
+                                    </div>
+                                    <?php }?>
+                                </div>
+
+                                <div class="used-car-features grid2 clearfix m-b60">
+                                    <?php for ($i=1; $i <= 30; $i++) { ?>
+                                    <div class="car-features4">
+                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
+                                    </div>
+                                    <?php }?>
+                                </div>
+
+                                <div class="used-car-features grid2 clearfix m-b60">
+                                    <?php for ($i=1; $i <= 30; $i++) { ?>
+                                    <div class="car-features5">
+                                        <h5 class="m-0">G<?= sprintf('%02d', $i) ?></h5>
+                                    </div>
+                                    <?php }?>
+                                </div>
+
+                                <div class="used-car-features grid2 clearfix">
+                                    <?php for ($i=1; $i <= 24; $i++) { ?>
+                                    <div class="car-features3">
+                                        <h5 class="m-0">A<?= sprintf('%02d', $i) ?></h5>
+                                    </div>
+                                    <?php }?>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="building_b" class="tab-pane">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
 
